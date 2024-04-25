@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokédex</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hamburgers/1.2.1/hamburgers.min.css">
+	      <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Warnes">
+    <link rel="stylesheet" href="/assets/main.css">
+</head>
+<body>
+    <header id="uno">
+        <nav class="nav">
+            <img src="./assets/logo.png" alt="Logo Pokédex">
+            <ul class="nav-list">
+                <li class="nav-item"><button class="btn btn-header" id="ver-todos">Ver todos</button></li>
+                <li class="nav-item"><button class="btn btn-header normal" id="normal">Normal</button></li>
+                <li class="nav-item"><button class="btn btn-header fire" id="fire">Fuego</button></li>
+                <li class="nav-item"><button class="btn btn-header water" id="water">Agua</button></li>
+                <li class="nav-item"><button class="btn btn-header grass" id="grass">Hierba</button></li>
+                <li class="nav-item"><button class="btn btn-header electric" id="electric">Electrico</button></li>
+                <li class="nav-item"><button class="btn btn-header ice" id="ice">Hielo</button></li>
+                <li class="nav-item"><button class="btn btn-header fighting" id="fighting">Luchador</button></li>
+                <li class="nav-item"><button class="btn btn-header poison" id="poison">Veneno</button></li>
+                <li class="nav-item"><button class="btn btn-header ground" id="ground">Tierra</button></li>
+                <li class="nav-item"><button class="btn btn-header flying" id="flying">Volador</button></li>
+                <li class="nav-item"><button class="btn btn-header psychic" id="psychic">Psíquico</button></li>
+                <li class="nav-item"><button class="btn btn-header bug" id="bug">Insecto</button></li>
+                <li class="nav-item"><button class="btn btn-header rock" id="rock">Roca</button></li>
+                <li class="nav-item"><button class="btn btn-header ghost" id="ghost">Fantasma</button></li>
+                <li class="nav-item"><button class="btn btn-header dragon" id="dragon">Dragon</button></li>
+                <li class="nav-item"><button class="btn btn-header steel" id="steel">Acero</button></li>
+                <li class="nav-item"><button class="btn btn-header fairy" id="fairy">Hada</button></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <button class="panel-btn hamburger hamburger--vortex" type="button">
+            <span class="hamburger-box">
+              <span class="hamburger-inner"></span>
+            </span>
+          </button>
+          <aside class="panel is-active">
+            <div class="menu">
+                <h1 class="h1">Bienvenidos a nuestra Pokedex!</h1>
+                <p><a> 
+                en ella podras encontrar todos los pokemons de la saga
+                y filtrar por sus tipos
+                . Para comenzar la experiencia has click aqui💥</a></p>
+                </div>
+          </aside>
+          <a href="#uno"><p class="grey"><i class="arrow up"></i></p></a>
+        <div id="todos">
+            <div class="pokemon-todos" id="listaPokemon">
+            </div>
+        </div>
+    </main>
+    <footer>
+        <h4>Autores: </h4>
+        <div class="container">
+            <img src="assets/blend160124041434.png" alt="Avatar" class="image">
+            <div class="overlay">
+              <div class="text">Salvador Cuba</div>
+            </div>
+            <div class="container1">
+              <h3> Developer</h3> 
+            </div>
+           </div>
+
+           <div class="container">
+            <img src="assets/portada.jpg" alt="Avatar" class="image">
+            <div class="overlay">
+              <div class="text">Jose Melendez</div>
+            </div>
+            <div class="container1">
+              <h3> Developer</h3> 
+            </div>
+           </div>
+           <img src="assets/logo.png" class="footer-logo">
+    </footer>
+    <script type="module" src="js/index.js" ></script>
+</body>
+</html>
